@@ -1,0 +1,325 @@
+/*Extra large devices (large desktops, 120.0rem and up)*/
+
+@media (max-width: 991.98px) {
+    #menu {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 10.0rem 0 2rem 0;
+        background-color: #fff;
+        z-index: -1;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+        overflow: auto;
+    }
+    .header_container {
+        position: relative;
+    }
+    #menu.open {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    #menu li {
+        display: block;
+        text-align: center;
+        max-width: 72.0rem;
+        margin: 0 auto;
+        line-height: 4.0rem;
+    }
+    #menu li a.nav-link {
+        padding: 0;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .try_btn {
+        display: none;
+    }
+    .home_box {
+        margin-top: 6.0rem;
+        text-align: center;
+    }
+    .home_box p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home_box .d-flex {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .home_img {
+        margin-top: 3.0rem;
+    }
+    .round2 {
+        left: 2.2rem;
+    }
+    .section_padd {
+        padding: 1.5rem 0 4.5rem 0;
+    }
+    .appfeature_head p,
+    .app_item,
+    .footer_box img,
+    .footer_box ul li a,
+    .footer_icon a {
+        margin-bottom: 3.0rem;
+    }
+    .smartjack_subhead p {
+        height: auto;
+        padding-left: .0rem;
+        border: none;
+    }
+    .smartjact_item,
+    .ultimate_btn,
+    .download_box a img,
+    .friendcustomize_box,
+    .meet_man {
+        margin-top: 3.0rem;
+    }
+    .chooseourapp_head p,
+    .getfe_head p,
+    .frequently_head p {
+        padding-bottom: 0;
+    }
+    .ultimate_ab,
+    .meetimg_ab {
+        position: relative;
+        right: auto;
+        top: 0;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        text-align: center;
+    }
+    .download_ab {
+        position: relative;
+        margin-top: 3.0rem;
+        right: auto;
+    }
+    .smartjack_head h2 {
+        max-width: 56.0rem;
+    }
+    .smartjack_subhead p,
+    .ultimate_box h2 {
+        max-width: 57.1rem;
+    }
+    .ultimate_box p {
+        max-width: 48.9rem;
+    }
+    .download_box {
+        text-align: center;
+    }
+    .download_box .d-flex {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    header {
+        padding: 3.0rem 0;
+    }
+    #menu li {
+        margin-top: 1.0rem;
+    }
+    #menu li a {
+        font-size: 2.0rem;
+        line-height: 1.5;
+    }
+}
+
+/*Medium devices (tablets, 767px and down)*/
+
+@media (max-width: 767.98px) {
+    .home_box h2 {
+        font-size: 5.0rem;
+    }
+    .smartjack_wrapper .sub_title {
+        line-height: 3.0rem;
+    }
+    .title_head {
+        font-size: 3.2rem;
+    }
+    .getfe_head h2 {
+        max-width: 38.6rem;
+    }
+    .meet_head h2 {
+        max-width: 39.4rem;
+    }
+    .frequently_head h2 {
+        max-width: 47.0rem;
+        margin: 0 auto;
+        padding-bottom: 3.0rem;
+    }
+    .frequently_head p {
+        max-width: 47.4rem;
+    }
+    .accordion .card button {
+        padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+        line-height: 2.8rem;
+        font-size: 1.8rem;
+    }
+    .appfeature_head h2 {
+        max-width: 41.2rem;
+    }
+    .designbuild_box h2 {
+        max-width: 40.0rem;
+    }
+    .ultimate_box h2 {
+        max-width: 51.1rem;
+    }
+    .ultimate_box p {
+        max-width: 45.8rem;
+    }
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 2.4vw;
+    }
+    .homefirst_txt img {
+        padding: .7rem;
+    }
+    .homefirst_txt p {
+        font-size: 1.5rem !important;
+        padding: 0 5.0rem 0 1.0rem;
+    }
+    .home_box h2 {
+        font-size: 3.8rem;
+        line-height: 4.5rem;
+        max-width: 34.5rem;
+    }
+    .home_box p {
+        font-size: 1.5rem;
+        max-width: 34.6rem;
+    }
+    .round1 {
+        top: 8.7rem;
+        right: 25.9rem;
+    }
+    .round2 {
+        left: .4rem;
+    }
+    .round3 {
+        right: 2.7rem;
+    }
+    .round_4 {
+        left: 3.0rem;
+    }
+    .round_5 {
+        left: 24.6rem;
+    }
+    .watch_btn {
+        font-size: 1.4rem;
+        margin-left: 1.0rem;
+    }
+    .button {
+        font-size: 1.4rem;
+        width: 14.0rem;
+        height: 5.0rem;
+    }
+    .home_box h2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .watch_btn {
+        font-size: 1.4rem;
+        margin-left: 1.0rem;
+    }
+    .frequently_wrapper .sub_title {
+        font-size: 1.1rem;
+    }
+    .app_subitem {
+        margin-left: 1.5rem;
+    }
+    .accordion .card button {
+        padding: 1.5rem;
+        font-size: 1.7rem;
+    }
+    .accordion .card button br {
+        display: block;
+    }
+    .accordion .card-body {
+        padding: 0 1.5rem 1.5rem 1.5rem;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+    .testi_slide .owl-nav .owl-prev {
+        right: 4.5rem !important;
+    }
+    .testi_slide .owl-nav .owl-prev,
+    .testi_slide .owl-nav .owl-next {
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 1.4rem;
+    }
+    .testi_slide .owl-nav .owl-prev,
+    .testi_slide .owl-nav .owl-next {
+        bottom: -3.4rem;
+    }
+    .download_box .mr_30 {
+        margin-right: 1.0rem;
+    }
+    .footer_box ul li {
+        margin: 0 .3rem;
+    }
+    .footer_box ul li a {
+        font-size: 1.2rem;
+    }
+    .title_head {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+    .getbtn a,
+    .getbtn a.active {
+        font-size: 1.4rem;
+        min-width: 12.2rem;
+    }
+    .smartjact_item {
+        text-align: center;
+    }
+    .title_head,
+    .smartjack_subhead,
+    .ultimate_btn {
+        text-align: center;
+    }
+    .appimg_bg {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    .app_subitem p,
+    .smartjact_item p,
+    .chooseapp_item p {
+        max-width: 100%;
+    }
+    .download_box a img {
+        max-width: 16rem;
+        width: 100%;
+    }
+    .container {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .designbuild_box,
+    .ultimate_box,
+    .meet_head {
+        text-align: center;
+    }
+}
